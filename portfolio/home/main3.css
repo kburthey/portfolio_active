@@ -1,0 +1,155 @@
+body {
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Gruppo', cursive;
+	background-color: #eae2d6;
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+.container {
+	min-width: 320px;
+	}
+	
+.navbar-nav li {
+	padding: 5px;
+	}
+.navbar-nav li>a {
+	color: #e1b80d;
+	font-weight: 600;
+	}
+.navbar-light .navbar-brand{
+	color: #867666;
+	font-weight: bold;
+	}
+.navbar-light .navbar-toggler{
+	background-color: #e1b80d;
+	}
+	
+.bg-faded {
+	background-color: #e1b80d;
+	}
+	
+/*jumbo */
+.jumbotron {
+	margin-top: 50px;
+	min-height: 600px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	text-align: center;
+	background: url('desktop.jpg') center center;
+	background-size: cover;
+	color: #eae2d6;
+	font-weight: bold;
+	margin-bottom: 0;
+	border-radius: 0;
+	}
+.jumbotron p {
+	color: #eae2d6;
+	}
+.jumbo-button {
+	background-color: #e1b80d;
+	border: none;
+	}
+.jumbotron .jumbo-button {
+	background-color: #867666;
+	color: #eae2d6;
+	}
+.jumbo-button:hover {
+	background-color: #e1b80d;
+	color: #867666;
+	border: none;
+	}
+.jumbotron h1 {
+	font-size: 3.5rem;
+	}
+/* title */
+.title {
+	text-align: center;
+	height: 11em;
+	color: #867666;
+	padding: 4em 0;
+	box-sizing: border-box;
+	}
+.title:hover {
+	color: #e1b80d;
+	}
+	
+h2 {
+	font-size: 3em;
+	}
+/* portfolio */
+.tile img {
+	width: 100%;
+	margin: 1em;
+	border: 1px #c02f1d solid;
+	box-sizing: border-box;
+	opacity: .5;
+	}
+.tile img:hover {
+	border: 2px #3c6478 solid;
+	box-sizing: border-box;
+	opacity: 1;
+	}
+.portfolio {
+	background-color: #7;
+	}
+.carousel-item a {
+	margin: 0 auto;
+	}
+#carouselExampleControls {
+	display: none;
+	}
+
+/*Contact */
+.contact-me {
+	/*background:url("laptop2.jpeg");
+	background-size: cover;*/
+	background-color: #867666; 
+	display: none;
+	}
+.contact-row {
+	padding: 30px 0;
+	}
+.contact-row img {
+	border-radius: 10px;
+	}
+#contact h1 {
+	color: #e1b80d;
+	font-weight: bold;
+	}
+#contact {
+	padding: 10px 0;
+	}
+.form-group {
+	color: #eae2d6;
+	font-weight: bold;
+	}
+.contact-me .jumbo-button:hover {
+	background-color: #eae2d6;
+	color: #867666;
+	}
+.form-group input:focus {
+	border-color: #e1b80d;
+	outline: none;
+	}
+.form-group textarea:focus {
+	border-color: #e1b80d;
+	outline: none;
+	}
+#email {
+	color: #eae2d6;
+	}
+@media (max-width: 400px) {
+	.jumbotron {
+		margin-top: 50px;
+		padding: 50px;
+		background:url('desktop.jpg') center bottom;
+		}
+	.jumbotron h1 {
+		font-size: 2.5rem;
+	}
+	.jumbotron p {
+		color: #eae2d6;
+		}
+}

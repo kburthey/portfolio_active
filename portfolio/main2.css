@@ -1,0 +1,95 @@
+body {
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Lobster', cursive;
+	background-color: #2A3132;
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+.container {
+	min-width: 320px;
+	}
+	
+.navbar-nav li {
+	padding: 5px;
+	}
+.navbar-nav li>a {
+	color: #2A3132;
+	
+	}
+.navbar-light .navbar-brand{
+	color: #2A3132;
+	text-transform: lowercase;
+	}
+.navbar-light .navbar-toggler{
+	background-color: #2A3132;
+	}
+	
+.bg-faded {
+	background-color: #763626;
+	}
+	
+/*jumbo */
+.jumbotron {
+	margin-top: 50px;
+	min-height: 600px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	text-align: center;
+	background: url('desktop2.jpg') center center ;
+	background-size: cover;
+	color: #90afc5;
+	font-weight: bold;
+	margin-bottom: 0;
+	border-radius: 0;
+	}
+.jumbo-button {
+	background-color: #336b87; /*#c02f1d;*/
+	border: none;
+	}
+.jumbo-button:hover {
+	background-color: #90afc5;
+	border: none;
+	}
+/* title */
+.title {
+	text-align: center;
+	height: 10em;
+	color: #90afc5
+	padding: 4em 0;
+	border: 1px solid yellow;
+	box-sizing: border-box;
+	}
+	
+/* portfolio */
+.tile img {
+	width: 100%;
+	margin: 1em;
+	border: 1px #c02f1d solid;
+	box-sizing: border-box;
+	opacity: .5;
+	}
+.tile img:hover {
+	border: 2px #3c6478 solid;
+	box-sizing: border-box;
+	opacity: 1;
+	}
+.portfolio {
+	background-color: black;
+	}
+
+/*Contact */
+#contact h1 {
+	color: #90afc5;
+	}
+.form-group {
+	color: #336b87;
+	}
+	
+@media (max-width: 400px) {
+	.jumbotron {
+		margin-top: 50px;
+		padding: 50px;
+		}
+	}

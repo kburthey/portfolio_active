@@ -1,0 +1,120 @@
+body {
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Gruppo', cursive;
+	background-color: #2A3132;
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+.container {
+	min-width: 320px;
+	}
+	
+.navbar-nav li {
+	padding: 5px;
+	}
+.navbar-nav li>a {
+	color: #2a3132;
+	font-weight: 600;
+	}
+.navbar-light .navbar-brand{
+	color: #2a3132;
+	font-weight: bold;
+	}
+.navbar-light .navbar-toggler{
+	background-color: #336b87;
+	}
+	
+.bg-faded {
+	background-color: #90afc5;
+	}
+	
+/*jumbo */
+.jumbotron {
+	margin-top: 50px;
+	min-height: 600px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	text-align: center;
+	background: url('desktop2.jpg') center center;
+	background-size: cover;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0;
+	border-radius: 0;
+	}
+.jumbo-button {
+	background-color: #763626;
+	border: none;
+	}
+.jumbo-button:hover {
+	background-color: #2a3132;
+	border: none;
+	}
+/* title */
+.title {
+	text-align: center;
+	height: 11em;
+	color: #90afc5;
+	padding: 4em 0;
+	box-sizing: border-box;
+	}
+.title:hover {
+	color: #763626;
+	}
+	
+h2 {
+	font-size: 3em;
+	}
+/* portfolio */
+.tile img {
+	width: 100%;
+	margin: 1em;
+	border: 1px #c02f1d solid;
+	box-sizing: border-box;
+	opacity: .5;
+	}
+.tile img:hover {
+	border: 2px #3c6478 solid;
+	box-sizing: border-box;
+	opacity: 1;
+	}
+.portfolio {
+	background-color: #7;
+	}
+.carousel-item a {
+	margin: 0 auto;
+	}
+#carouselExampleControls {
+	display: none;
+	}
+
+/*Contact */
+.contact-me {
+	background:url("whiteoffice.png");
+	background-size: cover;
+	display: none;
+	}
+.contact-row {
+	padding: 30px 0;
+	}
+.contact-row img {
+	border-radius: 10px;
+	}
+#contact h1 {
+	color: #763626;
+	font-weight: bold;
+	}
+.form-group {
+	color: #763626;
+	font-weight: bold;
+	}
+	
+@media (max-width: 400px) {
+	.jumbotron {
+		margin-top: 50px;
+		padding: 50px;
+		}
+	}
